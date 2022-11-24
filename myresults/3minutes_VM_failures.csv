@@ -1,0 +1,4 @@
+Method,Name,Error,Occurrences
+GET,/integral/0.0/3.14,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,/integral/0.0/3.14,RemoteDisconnected('Remote end closed connection without response'),4
+GET,/integral/0.0/3.14,"ConnectionRefusedError(111, 'Connection refused')",4
